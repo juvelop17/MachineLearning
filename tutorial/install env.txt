@@ -1,0 +1,15 @@
+Tensorflow 환경 구축
+
+
+cuda 10.0 설치
+https://developer.nvidia.com/cuda-10.0-download-archive
+
+anaconda 설치
+https://www.anaconda.com/distribution/
+
+env 생성
+conda create -n [virtualEnv] tensorflow-gpu jupyter
+
+jupyter kernel 생성
+python3 -m ipykernel install --user --name [virtualEnv] --display-name "[displayKenrelName]"
+
